@@ -48,8 +48,6 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  # code here
-end
   counter = 0
   total = 0.0
   season_contestant_bios = data.select {|year, values| year.to_s == season}
