@@ -1,5 +1,4 @@
 def get_first_name_of_season_winner(data, season)
-  # code here
 
   season_contestant_bios = data.select {|year, values| year.to_s == season}
   season_contestant_bios.each do |season, profile| 
